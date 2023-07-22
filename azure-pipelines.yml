@@ -4,10 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- none
 pool:
   Default
 
 steps:
-- script: echo Hello, world!
+- script: configuring pipeline trigger!
   displayName: 'Run a one-line script'
